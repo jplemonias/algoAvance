@@ -130,6 +130,14 @@ async function build_path(currentCell){
             // document.getElementById(`${currentCell.parent.x}-${currentCell.parent.y}`).style.backgroundColor = 'gold'
         }
     }
+
+
+    for (let elt of ARR) {
+        await timer();
+        document.getElementById(`${elt.x}-${elt.y}`).style.backgroundColor = '#cd7dcd'
+    }
+    console.log('U won !!!')
+
 }
 
 function timer() {

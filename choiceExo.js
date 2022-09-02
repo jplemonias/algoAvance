@@ -1,4 +1,4 @@
 export const EXO_CHOICE = {
-    ARR_LENGTH : 15,
-    EXO : "ex-1"
+    ARR_LENGTH : 25,
+    EXO : "ex-2"
 }

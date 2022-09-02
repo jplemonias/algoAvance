@@ -26,5 +26,6 @@ for (const cell of DATA){
 }
 
 LABYRINTH.display();
-
 new solve(LABYRINTH, LABYRINTH_OBJ[entrance]);
+
+console.assert(LABYRINTH.getNeighbors(LABYRINTH.data[0]) == LABYRINTH.data[1] , "Expression returned false");
