@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <title>Labirynth</title>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="module" src="choiceExo.js"></script>
-    <script type="module" src="dfs.js"></script>
-    <script src="algo.js"></script>
-    <title>Document</title>
-    <style>
-        *{
-            box-sizing: border-box;
-        }
-        #container{
-            background-color: aqua;
-            display: flex;
-            flex-wrap: wrap;
-        }
-        .cell{
-            background-color: rebeccapurple;
-            border: 0px solid black;
-        }
-        .entrance{
-            background-color: red;
-        }
-        .exit{
-            background-color: chartreuse;
-        }
-    </style>
+
+    <link rel="stylesheet" href="public/css/main.css">
+    <link rel="stylesheet" href="public/css/heart.css">
+
+
+    <script src="https://cdn.tailwindcss.com">
+        // tailwindcss
+    </script>
+    <script type="module" src="public/js/dfs.js"></script>
+    <script src="public/js/solvlabyrinth.js"></script>
+
+
 </head>
+
 <body>
+
+    <h1 class="text-3xl font-bold underline">Labirynth tailwindcss</h1>
+    <form id="form" name="PostForm">
+        <select id="sizeLabyrinth">
+        </select>
+        <span>
+            <input id="radio-1" type="radio" name="choiceLVL" value="1"> LvL 1
+            <input id="radio-2" type="radio" name="choiceLVL" value="2"> LvL 2
+            <input id="radio-3" type="radio" name="choiceLVL" value="3"> LvL 3
+        </span>
+    </form>
+    
+    <script type="module" src="public/js/choiceExo.js"></script>
+    <script src="public/js/generathtml.js"></script>
 </body>
+
 </html>
