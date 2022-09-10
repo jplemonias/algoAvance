@@ -25,7 +25,7 @@ for (const size in myJson) {
 }
 
 createLab();
-new solve(LABYRINTH, LABYRINTH_OBJ[entrance]);
+// new solve(LABYRINTH, LABYRINTH_OBJ[entrance]);
 
 function createLab() {
     LABYRINTH_OBJ.splice(0, LABYRINTH_OBJ.length)
@@ -41,7 +41,7 @@ function createLab() {
     }
     LABYRINTH.Empty(LABYRINTH_OBJ)
     LABYRINTH.display();
-    new solve(LABYRINTH, LABYRINTH_OBJ[entrance]);
+    // new solve(LABYRINTH, LABYRINTH_OBJ[entrance]);
 }
 
 
