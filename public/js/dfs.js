@@ -50,10 +50,9 @@ function deleteLab() {
 }
 
 function getSubmit(lvl, choice) {
-    choice = checkInput(choice) - 1
-    console.log(choice)
-    if (choice === undefined) choice = '0';
-    DATA = myJson[lvl][`ex-${choice}`]
+    choice = checkInput(choice)
+    if (choice === undefined) choice = 1;
+    DATA = myJson[lvl][`ex-${choice - 1}`]
 }
 
 function checkInput(elts) {
