@@ -17,7 +17,7 @@ function Labyrinth(data) {
     // this.setCSSProperties = () => { console.log("set properties") };
 
     
-    this.Empty = (d) => {console.log(d);this.data = d};
+    this.Empty = (d) => {this.data = d};
 
 
     this.getNeighbors = (cell) => {
