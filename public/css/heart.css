@@ -1,0 +1,7 @@
+.heart {
+    fill: black;
+    position: relative;
+    top: 5px;
+    width: 17px;
+    /* animation: pulse 1s ease infinite; */
+  }
